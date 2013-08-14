@@ -22,8 +22,8 @@ import com.online.GCM.fragments.SermonsActivity;
  */
 public class Members extends Activity {
 
-    PagerTabStrip mPagerTabStrip2;
-    ViewPager mViewPager2;
+    PagerTabStrip mPagerTabStrip;
+    ViewPager mViewPager;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,17 +31,17 @@ public class Members extends Activity {
         setContentView(R.layout.members);
         getWindow().setFeatureInt(R.layout.gcm_title, Window.FEATURE_CUSTOM_TITLE);
 
-        mViewPager2 = (ViewPager) findViewById(R.id.viewPagermembers);
+        mViewPager = (ViewPager) findViewById(R.id.viewPagermembers);
         TitleAdapter titleAdapter = new TitleAdapter(getFragmentManager());
-        mViewPager2.setAdapter(titleAdapter);
-        mViewPager2.setCurrentItem(0);
+        mViewPager.setAdapter(titleAdapter);
+        mViewPager.setCurrentItem(0);
 
-        mPagerTabStrip2 = (PagerTabStrip) findViewById(R.id.pagerTabStripmembers);
-        mPagerTabStrip2.setBackgroundColor(getResources().getColor(
+        mPagerTabStrip = (PagerTabStrip) findViewById(R.id.pagerTabStripmembers);
+        mPagerTabStrip.setBackgroundColor(getResources().getColor(
                 R.color.pc_light_gray));
-        mPagerTabStrip2.setTabIndicatorColor(getResources().getColor(
+        mPagerTabStrip.setTabIndicatorColor(getResources().getColor(
                 R.color.pc_blue));
-        mPagerTabStrip2.setDrawFullUnderline(true);
+        mPagerTabStrip.setDrawFullUnderline(true);
 
     }
 

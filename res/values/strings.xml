@@ -5,4 +5,12 @@
     <string name="plan_salvation">Plan Of Salvation</string>
     <string name="notifications">Notifications</string>
     <string name="Calendar">Calendar of Events</string>
+    <string name="plan_of_salvation">
+        This the a placeholder for the full plan of salvation\n
+        \n
+        \n
+        To be written at a later date\n
+        \n
+        \n
+    </string>
 </resources>
