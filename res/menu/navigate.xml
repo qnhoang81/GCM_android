@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home"
+          android:title="@string/HOME"></item>
+
+    <item android:id="@+id/calendar"
+          android:title="@string/Calendar"></item>
+
+    <item android:id="@+id/Sermons"
+          android:title="@string/Sermons"></item>
+
+
+</menu>

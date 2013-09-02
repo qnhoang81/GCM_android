@@ -4,6 +4,7 @@
           android:versionCode="1"
           android:versionName="1.0">
     <uses-sdk android:minSdkVersion="17"/>
+    <uses-permission android:name="android.permission.INTERNET" />
     <application android:label="GCM" android:icon="@drawable/ic_launcher" android:theme="@style/cgmTheme">
         <activity android:name="com.online.GCM.activities.MainActivity" >
             <intent-filter>
@@ -11,10 +12,5 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.online.GCM.activities.MembersAuthenticate"/>
-        <activity android:name="com.online.GCM.activities.Members"/>
-        <activity android:name="com.online.GCM.activities.NonMembers"/>
-        <activity android:name="com.online.GCM.fragments.PlanOfSalvation"/>
-        <activity android:name="com.online.GCM.fragments.SermonsActivity"/>
     </application>
 </manifest>

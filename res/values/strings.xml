@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">GCM</string>
-    <string name="sermons">Sermons</string>
-    <string name="plan_salvation">Plan Of Salvation</string>
-    <string name="notifications">Notifications</string>
-    <string name="Calendar">Calendar of Events</string>
-    <string name="plan_of_salvation">
-        This the a placeholder for the full plan of salvation\n
-        \n
-        \n
-        To be written at a later date\n
-        \n
-        \n
-    </string>
+    <string name="gcm_online">GCM Online</string>
+    <string name="home">Grace Church of Mentor</string>
+    <string name="HOME">Home</string>
+    <string name="Calendar">Church Calendar</string>
+    <string name="Sermons">Sermons</string>
+
 </resources>

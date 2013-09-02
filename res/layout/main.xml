@@ -1,39 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
-              android:gravity="end">
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="51dp"
-            android:text="Welcome to Grace Church of Mentor"
-            android:layout_gravity="center" android:textSize="20dip" android:textAlignment="center"
-            android:singleLine="true"/>
 
-    <RelativeLayout
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id="@android:id/tabhost"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent">
+    <LinearLayout
+            android:orientation="vertical"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
-        <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="MEMBERS"
-                android:id="@+id/button" android:layout_gravity="center"
-                android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
-                android:layout_marginLeft="50dp" android:layout_marginRight="50dp" android:layout_marginTop="80dp"
-                android:layout_marginBottom="10dp" android:textStyle="italic" android:layout_alignParentEnd="false"
-                android:layout_alignParentStart="false" android:layout_alignParentLeft="false"
-                android:layout_alignParentBottom="false" android:onClick="membersOptions"
-                />
-        <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="NON-MEMBERS"
-                android:id="@+id/button1" android:layout_gravity="center"
-                android:layout_centerHorizontal="true" android:layout_below="@+id/button"
-                android:textStyle="italic" android:layout_marginTop="10dp" android:layout_marginLeft="50dp"
-                android:layout_marginRight="50dp" android:onClick="nonMembersOptions"/>
-    </RelativeLayout>
-
-</LinearLayout>
+        <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"/>
+    </LinearLayout>
+</TabHost>
 
