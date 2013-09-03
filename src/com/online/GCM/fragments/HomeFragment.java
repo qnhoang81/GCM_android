@@ -1,27 +1,29 @@
 package com.online.GCM.fragments;
 
+import android.app.Activity;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import com.example.GCM.R;
-import com.online.GCM.activities.MainActivity;
 
 /**
  * Created with IntelliJ IDEA.
  * User: qnhoang81
- * Date: 9/1/13
- * Time: 10:57 PM
+ * Date: 9/2/13
+ * Time: 2:22 PM
  * To change this template use File | Settings | File Templates.
  */
-public class CalendarActivity extends Fragment {
+public class HomeFragment extends Fragment {
 
-    @Override
+    private static WebView mWebView;
+
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setHasOptionsMenu(true);
     }
 
     @Override
@@ -29,10 +31,13 @@ public class CalendarActivity extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.home, container, false);
 
-        MainActivity.mWebView = (WebView) view.findViewById(R.id.webviewhome);
-        MainActivity.mWebView.loadUrl("http://www.gracechurchmentor.org/calendar");
+        mWebView = (WebView) view.findViewById(R.id.webviewhome);
+        mWebView.loadUrl("http://www.gracechurchmentor.org");
 
-        MainActivity.updateWebView();
+        mWebView.setWebViewClient(new WebViewClient());
+        WebSettings webSettings = mWebView.getSettings();
+
+        webSettings.setJavaScriptEnabled(true);
 
         return view;
     }

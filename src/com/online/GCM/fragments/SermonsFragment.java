@@ -6,9 +6,10 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.*;
 import android.webkit.DownloadListener;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import com.example.GCM.R;
-import com.online.GCM.activities.MainActivity;
 
 /**
  * Created with IntelliJ IDEA.
@@ -17,7 +18,9 @@ import com.online.GCM.activities.MainActivity;
  * Time: 11:21 PM
  * To change this template use File | Settings | File Templates.
  */
-public class SermonsActivity extends Fragment {
+public class SermonsFragment extends Fragment {
+
+    public static WebView mWebView;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,12 +32,10 @@ public class SermonsActivity extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.home, container, false);
 
-        MainActivity.mWebView = (WebView) view.findViewById(R.id.webviewhome);
-        MainActivity.mWebView.loadUrl("http://www.gracechurchmentor.org/sermons");
+        mWebView = (WebView) view.findViewById(R.id.webviewhome);
+        mWebView.loadUrl("http://www.gracechurchmentor.org/sermons");
 
-        MainActivity.updateWebView();
-
-        MainActivity.mWebView.setDownloadListener(new DownloadListener() {
+        mWebView.setDownloadListener(new DownloadListener() {
             public void onDownloadStart(String url, String userAgent,
                                         String contentDisposition, String mimetype,
                                         long contentLength) {
@@ -44,6 +45,11 @@ public class SermonsActivity extends Fragment {
 
             }
         });
+
+        mWebView.setWebViewClient(new WebViewClient());
+        WebSettings webSettings = mWebView.getSettings();
+
+        webSettings.setJavaScriptEnabled(true);
 
         return view;
     }

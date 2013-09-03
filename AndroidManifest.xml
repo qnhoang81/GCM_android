@@ -3,14 +3,17 @@
           package="com.example.GCM"
           android:versionCode="1"
           android:versionName="1.0">
-    <uses-sdk android:minSdkVersion="17"/>
+    <uses-sdk android:minSdkVersion="8" />
+
     <uses-permission android:name="android.permission.INTERNET" />
-    <application android:label="GCM" android:icon="@drawable/ic_launcher" android:theme="@style/cgmTheme">
-        <activity android:name="com.online.GCM.activities.MainActivity" >
+    <application android:label="GCM" android:icon="@drawable/ic_launcher" >
+        <activity android:name="com.online.GCM.activities.MainActivity" android:theme="@style/CustomTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name="com.online.GCM.activities.HomeActivity" />
+        <activity android:name="com.online.GCM.activities.GcmOnlineActivity" />
     </application>
 </manifest>
