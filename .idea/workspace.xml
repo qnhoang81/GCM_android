@@ -45,10 +45,10 @@
     <file path="/main.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1376271363953" ignored="false" />
     <file path="/styles.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378148204860" ignored="false" />
     <file path="/themes.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378167669395" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378167994829" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378168359448" ignored="false" />
     <file path="/MyActivity.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1376278508072" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/example/GCM/Manifest.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1376282597767" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/com/example/GCM/R.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378168021278" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/example/GCM/R.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378169023731" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/example/GCM/BuildConfig.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1376283203746" ignored="false" />
     <file path="/Members.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1376448759660" ignored="false" />
     <file path="/NonMembers.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1376439220750" ignored="false" />
@@ -58,17 +58,17 @@
     <file path="/sermons.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378092534041" ignored="false" />
     <file path="/salvation.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1376280593499" ignored="false" />
     <file path="/members.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1376440519463" ignored="false" />
-    <file path="/fragment.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378099522522" ignored="false" />
+    <file path="/fragment.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378168581606" ignored="false" />
     <file path="$USER_HOME$/Downloads/packages_apps_PerformanceControl-jb-mr1/src/com/brewcrewfoo/performance/fragments/CPUSettings.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1376306717808" ignored="false" />
     <file path="/CalendarActivity.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378133787281" ignored="false" />
     <file path="/NotificationsActivity.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1376441470949" ignored="false" />
     <file path="/strings.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378107029049" ignored="false" />
-    <file path="/MainActivity.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378145819673" ignored="false" />
+    <file path="/MainActivity.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378168793045" ignored="false" />
     <file path="/MembersAuthenticate.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1376450191136" ignored="false" />
     <file path="$USER_HOME$/Downloads/GeoQuizMy/gen/com/bignerdranch/android/geoquiz/BuildConfig.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378067604838" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/online/GCM/activities/WebView.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378068458456" ignored="false" />
     <file path="/home.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378084212898" ignored="false" />
-    <file path="/HomeActivity.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378146481896" ignored="false" />
+    <file path="/HomeActivity.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378170956490" ignored="false" />
     <file path="/GcmOnlineActivity.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378143625316" ignored="false" />
     <file path="/calendar.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378091752927" ignored="false" />
     <file path="/navigate.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378145985850" ignored="false" />
@@ -165,7 +165,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/online/GCM/activities/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="100" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0">
+            <state line="26" column="99" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -191,11 +191,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="90" selection-start="886" selection-end="886" vertical-scroll-proportion="0.5755396">
+            <state line="19" column="19" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/online/GCM/activities/HomeActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="3" selection-start="2198" selection-end="2342" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GcmOnlineActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/online/GCM/activities/GcmOnlineActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="101" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.3181818">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -217,15 +239,15 @@
         <option value="$PROJECT_DIR$/src/com/online/GCM/fragments/SermonsActivity.java" />
         <option value="$PROJECT_DIR$/src/com/online/GCM/fragments/CalendarActivity.java" />
         <option value="$PROJECT_DIR$/res/menu/navigate.xml" />
-        <option value="$PROJECT_DIR$/src/com/online/GCM/activities/GcmOnlineActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/online/GCM/activities/MainActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/online/GCM/activities/HomeActivity.java" />
         <option value="$PROJECT_DIR$/src/com/online/GCM/fragments/HomeFragment.java" />
         <option value="$PROJECT_DIR$/src/com/online/GCM/fragments/CalendarFragment.java" />
         <option value="$PROJECT_DIR$/src/com/online/GCM/fragments/SermonsFragment.java" />
         <option value="$PROJECT_DIR$/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/res/values/themes.xml" />
+        <option value="$PROJECT_DIR$/src/com/online/GCM/activities/MainActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/online/GCM/activities/HomeActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/online/GCM/activities/GcmOnlineActivity.java" />
       </list>
     </option>
   </component>
@@ -654,7 +676,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-10" width="1237" height="822" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -671,7 +693,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3409437" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.325723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.325723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32853982" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24971624" sideWeight="0.7710177" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.7716895" order="7" side_tool="false" content_ui="tabs" />
@@ -812,24 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/online/GCM/activities/GcmOnlineActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="39" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/online/GCM/activities/HomeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="7" selection-start="756" selection-end="918" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/online/GCM/fragments/HomeFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="51" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.0">
@@ -847,18 +851,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/online/GCM/fragments/SermonsFragment.java">
+    <entry file="file://$PROJECT_DIR$/res/values/themes.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="43" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="16" column="87" selection-start="743" selection-end="743" vertical-scroll-proportion="-9.6">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/online/GCM/activities/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/online/GCM/fragments/SermonsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="100" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0">
+        <state line="17" column="43" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -872,17 +874,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/themes.xml">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="87" selection-start="743" selection-end="743" vertical-scroll-proportion="-9.6">
+        <state line="19" column="19" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/online/GCM/activities/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="90" selection-start="886" selection-end="886" vertical-scroll-proportion="0.5755396">
-          <folding />
+        <state line="26" column="99" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/online/GCM/activities/HomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="3" selection-start="2198" selection-end="2342" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/online/GCM/activities/GcmOnlineActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="101" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.3181818">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

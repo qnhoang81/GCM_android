@@ -29,6 +29,11 @@ public class GcmOnlineActivity extends Activity {
         WebSettings webSettings = mWebView.getSettings();
 
         webSettings.setJavaScriptEnabled(true);
+        mWebView.getSettings().setSupportZoom(true);
+        mWebView.getSettings().setBuiltInZoomControls(true);
+        mWebView.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
+        mWebView.setScrollbarFadingEnabled(true);
+        mWebView.getSettings().setLoadsImagesAutomatically(true);
     }
 
     public void onCreate(Bundle savedInstanceState) {
@@ -40,6 +45,24 @@ public class GcmOnlineActivity extends Activity {
 
         updateWebView();
 
+        if (savedInstanceState == null) {
+            // Load a page
+            mWebView.loadUrl("https://gracechurchmentor.ccbchurch.com/login.php");
+        }
+
+    }
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        // Save the state of the WebView
+        mWebView.saveState(outState);
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        // Restore the state of the WebView
+        mWebView.restoreState(savedInstanceState);
     }
 
     @Override

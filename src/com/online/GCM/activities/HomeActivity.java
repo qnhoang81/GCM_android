@@ -1,9 +1,13 @@
 package com.online.GCM.activities;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.nfc.Tag;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -25,12 +29,19 @@ public class HomeActivity extends Activity {
 
     private static WebView mWebView;
 
+    private static final String HOME_STATE = "homestate";
+
     public static void updateWebView() {
 
         mWebView.setWebViewClient(new WebViewClient());
         WebSettings webSettings = mWebView.getSettings();
 
         webSettings.setJavaScriptEnabled(true);
+        mWebView.getSettings().setSupportZoom(true);
+        mWebView.getSettings().setBuiltInZoomControls(true);
+        mWebView.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
+        mWebView.setScrollbarFadingEnabled(true);
+        mWebView.getSettings().setLoadsImagesAutomatically(true);
     }
 
     @Override
@@ -54,8 +65,25 @@ public class HomeActivity extends Activity {
 
         updateWebView();
 
+        if (savedInstanceState == null) {
+            // Load a page
+            mWebView.loadUrl("http://www.gracechurchmentor.org");
+        }
+
+    }
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        // Save the state of the WebView
+        mWebView.saveState(outState);
     }
 
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        // Restore the state of the WebView
+        mWebView.restoreState(savedInstanceState);
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

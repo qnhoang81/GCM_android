@@ -7,7 +7,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <application android:label="GCM" android:icon="@drawable/ic_launcher" >
-        <activity android:name="com.online.GCM.activities.MainActivity" android:theme="@style/CustomTheme" >
+        <activity android:name="com.online.GCM.activities.MainActivity" android:theme="@style/CustomTheme" uiOptions="splitActionBarWhenNarrow">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
