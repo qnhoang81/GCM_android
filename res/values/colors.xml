@@ -2,4 +2,5 @@
 <resources>
     <color name="pc_light_gray">#ff4d4d4d</color>
     <color name="pc_blue">#ff0099cc</color>
+    <color name="transparent">#000000</color>
 </resources>

@@ -6,5 +6,16 @@
     <string name="HOME">Home</string>
     <string name="Calendar">Church Calendar</string>
     <string name="Sermons">Sermons</string>
+    <string name="exit">Exit Application</string>
+    <string-array name="navigate_array">
+        <item>GCM Online</item>
+        <item>Calendar of Events</item>
+        <item>Sermons</item>
+        <item>Visitor Information</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">This app is not available</string>
 
 </resources>

@@ -2,17 +2,9 @@
 
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:id="@+id/home"
-          android:title="@string/HOME"
-          android:showAsAction="ifRoom"></item>
-
-    <item android:id="@+id/calendar"
-          android:showAsAction="ifRoom"
-          android:title="@string/Calendar"></item>
-
-    <item android:id="@+id/Sermons"
-          android:showAsAction="always"
-          android:title="@string/Sermons"></item>
-
+    <item android:id="@+id/action_websearch"
+          android:icon="@drawable/action_search"
+          android:title="@string/action_websearch"
+          android:showAsAction="ifRoom|withText" />
 
 </menu>
