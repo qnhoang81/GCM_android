@@ -7,15 +7,21 @@
     <string name="Calendar">Church Calendar</string>
     <string name="Sermons">Sermons</string>
     <string name="exit">Exit Application</string>
+    <string name="Visitor">Visitor Information</string>
+    <string name="UpcomingEvents">Upcoming Events</string>
+    <string name="GCMNews">GCM News</string>
     <string-array name="navigate_array">
-        <item>GCM Online</item>
-        <item>Calendar of Events</item>
-        <item>Sermons</item>
-        <item>Visitor Information</item>
+        <item>@string/UpcomingEvents</item>
+        <item>@string/GCMNews</item>
+        <item>@string/gcm_online</item>
+        <item>@string/Calendar</item>
+        <item>@string/Sermons</item>
+        <item>@string/Visitor</item>
     </string-array>
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
     <string name="action_websearch">Web search</string>
     <string name="app_not_available">This app is not available</string>
+    <string name="action_exit">Exit</string>
 
 </resources>

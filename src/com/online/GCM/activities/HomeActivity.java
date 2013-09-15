@@ -1,25 +1,17 @@
 package com.online.GCM.activities;
 
-import android.app.Activity;
-import android.app.SearchManager;
+import android.app.*;
 import android.content.Intent;
 import android.content.res.Configuration;
-import android.graphics.Color;
-import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.SystemClock;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.view.*;
-import android.webkit.CookieManager;
-import android.webkit.WebSettings;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
-import android.widget.Toast;
+import android.webkit.*;
+import android.widget.*;
 import com.example.GCM.R;
+
 import org.apache.commons.io.IOUtils;
 
 import java.io.IOException;
@@ -43,106 +35,29 @@ public class HomeActivity extends Activity {
     private CharSequence mDrawerTitle;
     private CharSequence mTitle;
     private String[] mNavigate;
+    private ProgressBar mProgressBar;
 
-    public void updateWebView() {
-
-        WebSettings mWebSettings = mWebViewhome.getSettings();
-        CookieManager cookieManager = CookieManager.getInstance();
-
-        mWebSettings.setJavaScriptEnabled(true);
-        mWebSettings.setSupportZoom(true);
-        mWebSettings.setBuiltInZoomControls(true);
-        mWebSettings.setLoadsImagesAutomatically(true);
-
-        mWebViewhome.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
-        mWebViewhome.setScrollbarFadingEnabled(true);
-
-        //mWebViewhome.loadUrl("file:///android_asset/gracechurchmentor.html");
-        cookieManager.setAcceptCookie(true);
-    }
-
-    public static String getURL() throws IOException {
-
-        URL url = new URL("http://www.gracechurchmentor.org");
-        URLConnection con = url.openConnection();
-        InputStream in = con.getInputStream();
-        String encoding = con.getContentEncoding();
-        encoding = encoding == null ? "UTF-8" : encoding;
-        String str = IOUtils.toString(in, encoding);
-
-        return str;
-
-    }
-
-
-    @Override
-    public boolean onKeyDown(int keyCode, KeyEvent event) {
-        // Check if the key event was the Back button and if there's history
-        if ((keyCode == KeyEvent.KEYCODE_BACK) && mWebViewhome.canGoBack()) {
-            mWebViewhome.goBack();
-            return true;
-        } else if (keyCode == KeyEvent.KEYCODE_BACK) {
-            homescreen();
-            return true;
-        }
-        // If it wasn't the Back key or there's no web page history, bubble up to the default
-        // system behavior (probably exit the activity)
-
-        return super.onKeyDown(keyCode, event);
-    }
-
-    public void homescreen() {
-        Intent homeIntent= new Intent(Intent.ACTION_MAIN);
-        homeIntent.addCategory(Intent.CATEGORY_HOME);
-        homeIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        startActivity(homeIntent);
-    }
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_ACTION_BAR);
+        getWindow().requestFeature(Window.FEATURE_PROGRESS);
+
         setContentView(R.layout.home);
 
-        /* Webview implementation */
+        setLayout();
 
-        mWebViewhome = (WebView) findViewById(R.id.webviewhome);
-        updateWebView();
-
-        mWebViewhome.setWebViewClient(new WebViewClient() {
-            @Override
-            public boolean shouldOverrideUrlLoading(WebView webView, String url) {
-                return false;
-            }
-
-        });
-
-            try {
-                InputStream st = getAssets().open("header.html");
-                InputStream st2 = getAssets().open("footer.html");
-                String header = IOUtils.toString(st);
-                String footer = IOUtils.toString(st2);
-
-                String html = getURL().substring(getURL().indexOf("<div id=\"k2ModuleBox127\" "), getURL().indexOf("Admit, Believe, Commit"));
-
-                StringBuilder builder = new StringBuilder("");
-                builder.append(header + html + footer + "</div></div></body></html>");
-                mWebViewhome.loadDataWithBaseURL(null, builder.toString(), "text/html", "UTF-8", null);
-
-            } catch (IOException e1) {
-                e1.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-            }
-
-            new WebViewTask().execute();
-
-            if (savedInstanceState == null) {
+        /***** Webview implementation *****/
+        if (savedInstanceState == null) {
                 // Load a page
-               // mWebViewhome.loadUrl("file:///android_asset/gracechurchmentor.html");
-            }
+            //mWebViewhome.loadUrl("file:///android_asset/gracechurchmentor.html");
+        }
+
 
         getActionBar().setDisplayHomeAsUpEnabled(true);
         getActionBar().setHomeButtonEnabled(true);
 
-        /*Implemenation of Sliding Navigation Drawer*/
+        /***** Implemenation of Sliding Navigation Drawer *****/
 
         mNavigate = getResources().getStringArray(R.array.navigate_array);
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -154,9 +69,8 @@ public class HomeActivity extends Activity {
         // set up the drawer's list view with items and click listener
         mDrawerList.setAdapter(new ArrayAdapter<String>(this,
                 R.layout.drawer_list_item, mNavigate));
-        //mDrawerList.setCacheColorHint(Color.TRANSPARENT);
         mDrawerList.setBackgroundColor(R.color.transparent);
-        //mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
+        mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
 
         mTitle = mDrawerTitle = getTitle();
         mDrawerToggle = new ActionBarDrawerToggle(
@@ -194,16 +108,6 @@ public class HomeActivity extends Activity {
         mWebViewhome.restoreState(savedInstanceState);
     }
 
-
-    private class WebViewTask extends AsyncTask<Void, Void, Boolean> {
-
-        protected Boolean doInBackground(Void... param) {
-            /* this is very important - THIS IS THE HACK */
-            SystemClock.sleep(1000);
-            return false;
-        }
-    }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -222,9 +126,10 @@ public class HomeActivity extends Activity {
         // Handle action buttons
         switch(item.getItemId()) {
             case R.id.action_websearch:
-                // create intent to perform web search for this planet
+                // create intent to perform web search
+                String string = "Grace Church of Mentor, OH directions";
                 Intent intent = new Intent(Intent.ACTION_WEB_SEARCH);
-                intent.putExtra(SearchManager.QUERY, getActionBar().getTitle());
+                intent.putExtra(SearchManager.QUERY, string);
                 // catch event that there's no activity to handle intent
                 if (intent.resolveActivity(getPackageManager()) != null) {
                     startActivity(intent);
@@ -232,34 +137,64 @@ public class HomeActivity extends Activity {
                     Toast.makeText(this, R.string.app_not_available, Toast.LENGTH_LONG).show();
                 }
                 return true;
+            case R.id.action_exit:
+                finish();
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
     }
 
-        /*private class DrawerItemClickListener implements ListView.OnItemClickListener {
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        // Check if the key event was the Back button and if there's history
+        if ((keyCode == KeyEvent.KEYCODE_BACK) && mWebViewhome.canGoBack()) {
+            mWebViewhome.goBack();
+            return true;
+        } else if (keyCode == KeyEvent.KEYCODE_BACK && event.getRepeatCount() == 0) {
+            if( this.getFragmentManager().getBackStackEntryCount() != 0 ){
+                this.getFragmentManager().popBackStack();
+                return true;
+            }
+            // If there are no fragments on stack perform the original back button event
+        }
+
+        return super.onKeyDown(keyCode, event);
+
+    }
+
+    /* The click listner for ListView in the navigation drawer */
+    private class DrawerItemClickListener implements ListView.OnItemClickListener {
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
             selectItem(position);
         }
-    }*/
+    }
 
-    /*private void selectItem(int position) {
+    private void setLayout() {
+        Fragment fragment = new DefaultFragment();
+        FragmentManager fragmentManager = getFragmentManager();
+
+        fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).addToBackStack(null).commit();
+
+    }
+
+    private void selectItem(int position) {
         // update the main content by replacing fragments
-        Fragment fragment = new PlanetFragment();
+        Fragment fragment = new ChoiceFragment();
         Bundle args = new Bundle();
-        args.putInt(PlanetFragment.ARG_PLANET_NUMBER, position);
+        args.putInt(ChoiceFragment.ARG_ARRAY_NUMBER, position);
         fragment.setArguments(args);
 
         FragmentManager fragmentManager = getFragmentManager();
-        fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
+        fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).addToBackStack(null).commit();
+
 
         // update selected item and title, then close the drawer
         mDrawerList.setItemChecked(position, true);
-        setTitle(mPlanetTitles[position]);
+        setTitle(mNavigate[position]);
         mDrawerLayout.closeDrawer(mDrawerList);
-    } */
-
+    }
 
     @Override
     public void setTitle(CharSequence title) {
@@ -282,8 +217,208 @@ public class HomeActivity extends Activity {
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
-        // Pass any configuration change to the drawer toggls
+        // Pass any configuration change to the drawer toggles
         mDrawerToggle.onConfigurationChanged(newConfig);
     }
 
+    public class DefaultFragment extends Fragment {
+        @Override
+        public void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setHasOptionsMenu(true);
+        }
+
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                                 Bundle savedInstanceState) {
+            View view = inflater.inflate(R.layout.webview_default, container, false);
+
+            mProgressBar = (ProgressBar) view.findViewById(R.id.progress);
+            mWebViewhome = (WebView) view.findViewById(R.id.webViewDefault);
+
+
+            mWebViewhome.setWebChromeClient(new WebChromeClient() {
+                public void onProgressChanged(WebView view, int progress) {
+
+                    if(progress < 100 && mProgressBar.getVisibility() == ProgressBar.GONE){
+                        mProgressBar.setVisibility(ProgressBar.VISIBLE);
+                    }
+
+                    if(progress == 100) {
+                        mProgressBar.setVisibility(ProgressBar.GONE);
+                    }
+
+                    mProgressBar.setProgress(progress);
+                }
+
+            });
+
+            mWebViewhome.loadUrl("https://gracechurchmentor.ccbchurch.com/mobile_login.php");
+            mWebViewhome.setWebViewClient(new WebViewClient());
+            setTitle("Grace Church of Mentor");
+            return view;
+        }
+
+    }
+
+    public class ChoiceFragment extends Fragment {
+
+        public void updateWebView() {
+
+            WebSettings mWebSettings = mWebViewhome.getSettings();
+            CookieManager cookieManager = CookieManager.getInstance();
+
+            mWebSettings.setJavaScriptEnabled(true);
+            mWebSettings.setSupportZoom(true);
+            mWebSettings.setBuiltInZoomControls(true);
+            mWebSettings.setLoadsImagesAutomatically(true);
+
+            mWebViewhome.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
+            mWebViewhome.setScrollbarFadingEnabled(true);
+            mWebSettings.setPluginState(WebSettings.PluginState.ON);
+            mWebSettings.setCacheMode(WebSettings.LOAD_DEFAULT);
+
+
+            cookieManager.setAcceptCookie(true);
+        }
+
+        public String getnews() throws IOException {
+            URL url = new URL("http://www.gracechurchmentor.org/news");
+            URLConnection con = url.openConnection();
+            InputStream in = con.getInputStream();
+            String encoding = con.getContentEncoding();
+            encoding = encoding == null ? "UTF-8" : encoding;
+            String str = IOUtils.toString(in, encoding);
+
+            return str;
+        }
+
+        public String gcmnews() throws IOException {
+            String gcmnews = "";
+            gcmnews = getnews().substring(getnews().indexOf("<h3 class=\"\">GCM News</h3>"), getnews().indexOf("About GCM"));
+            return gcmnews;
+        }
+
+        public static final String ARG_ARRAY_NUMBER = "array_number";
+
+        @Override
+        public void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setHasOptionsMenu(true);
+        }
+
+        public ChoiceFragment() {
+            // Empty constructor required for fragment subclasses
+        }
+
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                                 Bundle savedInstanceState) {
+            View view = inflater.inflate(R.layout.webview_default, container, false);
+
+            mProgressBar = (ProgressBar) view.findViewById(R.id.progress);
+            mWebViewhome = (WebView) view.findViewById(R.id.webViewDefault);
+
+
+            mWebViewhome.setWebChromeClient(new WebChromeClient() {
+                public void onProgressChanged(WebView view, int progress) {
+
+                    if(progress < 100 && mProgressBar.getVisibility() == ProgressBar.GONE){
+                        mProgressBar.setVisibility(ProgressBar.VISIBLE);
+                    }
+
+                    if(progress == 100) {
+                        mProgressBar.setVisibility(ProgressBar.GONE);
+                    }
+
+                    mProgressBar.setProgress(progress);
+                }
+
+            });
+
+
+            mWebViewhome.setWebViewClient(new WebViewClient());
+
+            int i = getArguments().getInt(ARG_ARRAY_NUMBER);
+            String navigate = getResources().getStringArray(R.array.navigate_array)[i];
+
+            switch (i) {
+                case 0:
+                    try {
+
+                    InputStream st = getAssets().open("upcoming_events.html");
+                    String header = IOUtils.toString(st);
+
+                    mWebViewhome.loadDataWithBaseURL("file:///android_asset/upcoming_events.html", header, "text/html", "charset=UTF-8", null);
+                    } catch (IOException e) {
+                    e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                    }
+
+                    break;
+                case 1:
+
+                    try {
+
+                        InputStream st = getAssets().open("gcm_news.html");
+                        String header = IOUtils.toString(st);
+
+                        StringBuilder builder = new StringBuilder("");
+                        builder.append(header + gcmnews() + "</div></body></html>");
+
+                        mWebViewhome.loadDataWithBaseURL("file:///android_asset/gcm_news.html", builder.toString(), "text/html", "charset=UTF-8", null);
+                    } catch (IOException e) {
+                        e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                    }
+                    break;
+                case 2:
+                    mWebViewhome.loadUrl("https://gracechurchmentor.ccbchurch.com/mobile_login.php");
+                    break;
+                case 3:
+                    try {
+                        InputStream st = getAssets().open("header_calendar.html");
+                        String header = IOUtils.toString(st);
+
+                        mWebViewhome.loadDataWithBaseURL("file:///android_asset/header_calendar.html", header, "text/html", "charset=UTF-8", null);
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    break;
+                case 4:
+                    mWebViewhome.loadUrl("http://www.gracechurchmentor.org/sermons");
+                    break;
+                case 5:
+                    mWebViewhome.loadUrl("file:///android_asset/gracechurchmentor.html");
+                    break;
+                default:
+                    finish();
+            }
+
+            mWebViewhome.setWebChromeClient(new WebChromeClient() {
+                public void onProgressChanged(WebView view, int progress) {
+
+                    if(progress < 100 && mProgressBar.getVisibility() == ProgressBar.GONE){
+                        mProgressBar.setVisibility(ProgressBar.VISIBLE);
+                    }
+
+                    if(progress == 100) {
+                        mProgressBar.setVisibility(ProgressBar.GONE);
+                    }
+
+                    mProgressBar.setProgress(progress);
+                }
+
+            });
+
+            updateWebView();
+
+            if(container == null){
+                return null;
+            }
+
+            getActivity().setTitle(navigate);
+            return view;
+
+        }
+
+    }
 }

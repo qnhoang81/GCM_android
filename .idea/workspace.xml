@@ -41,11 +41,11 @@
     <list default="true" id="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" name="Default" comment="" />
     <ignored path="GCM.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378533091442" ignored="false" />
+    <file path="/Dummy.txt" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1379274969677" ignored="false" />
     <file path="/main.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1376271363953" ignored="false" />
     <file path="/styles.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378433799395" ignored="false" />
     <file path="/themes.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378532435838" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378532721050" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378838800374" ignored="false" />
     <file path="/MyActivity.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1376278508072" ignored="false" />
     <file path="/Members.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1376448759660" ignored="false" />
     <file path="/NonMembers.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1376439220750" ignored="false" />
@@ -59,24 +59,24 @@
     <file path="$USER_HOME$/Downloads/packages_apps_PerformanceControl-jb-mr1/src/com/brewcrewfoo/performance/fragments/CPUSettings.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1376306717808" ignored="false" />
     <file path="/CalendarActivity.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378133787281" ignored="false" />
     <file path="/NotificationsActivity.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1376441470949" ignored="false" />
-    <file path="/strings.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378527802093" ignored="false" />
+    <file path="/strings.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1379276897083" ignored="false" />
     <file path="/MainActivity.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378496714732" ignored="false" />
     <file path="/MembersAuthenticate.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1376450191136" ignored="false" />
     <file path="$USER_HOME$/Downloads/GeoQuizMy/gen/com/bignerdranch/android/geoquiz/BuildConfig.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378067604838" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/online/GCM/activities/WebView.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378068458456" ignored="false" />
-    <file path="/home.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378432544532" ignored="false" />
-    <file path="/HomeActivity.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378534043607" ignored="false" />
+    <file path="/home.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378963053527" ignored="false" />
+    <file path="/HomeActivity.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1379278250842" ignored="false" />
     <file path="/GcmOnlineActivity.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378264616287" ignored="false" />
     <file path="/calendar.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378091752927" ignored="false" />
-    <file path="/navigate.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378502265924" ignored="false" />
+    <file path="/navigate.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1379277577871" ignored="false" />
     <file path="/gcm_online.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378233426180" ignored="false" />
-    <file path="/HomeFragment.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378146231929" ignored="false" />
-    <file path="/CalendarFragment.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378147443617" ignored="false" />
+    <file path="/HomeFragment.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378968135943" ignored="false" />
+    <file path="/CalendarFragment.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378966013655" ignored="false" />
     <file path="/java.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378179959193" ignored="false" />
     <file path="/SessionManagement.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378180286573" ignored="false" />
     <file path="/a.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378233442621" ignored="false" />
     <file path="/banner.html" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378527609185" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/com/example/GCM/R.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378532737933" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/example/GCM/R.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1379276352706" ignored="false" />
     <file path="/AndroidDownloadHelper.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378517612421" ignored="false" />
     <file path="/NavigationDrawer.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378517767010" ignored="false" />
     <file path="/drawer_list_item.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378532831160" ignored="false" />
@@ -84,6 +84,15 @@
     <file path="/color.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378533171657" ignored="false" />
     <file path="/colors.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378533232310" ignored="false" />
     <file path="/footer.html" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378533970021" ignored="false" />
+    <file path="/header.html" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378566534040" ignored="false" />
+    <file path="/header_calendar.html" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378840249632" ignored="false" />
+    <file path="/header_main.html" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378864609822" ignored="false" />
+    <file path="/gcm_news.html" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378954559485" ignored="false" />
+    <file path="$USER_HOME$/Downloads/packages_apps_PerformanceControl-jb-mr1/gen/com/brewcrewfoo/performance/BuildConfig.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378962738991" ignored="false" />
+    <file path="/ChoiceFragment.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378965566612" ignored="false" />
+    <file path="/webview_fragment.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1379274912097" ignored="false" />
+    <file path="/SermonsFragment.java" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1378968121564" ignored="false" />
+    <file path="/webview_events.xml" changelist="fc571fa6-6c26-4b0a-b2b5-f56fbccd83aa" time="1379275021657" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +107,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -135,6 +143,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -148,19 +157,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
+      <file leaf-file-name="HomeActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/online/GCM/activities/HomeActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="12" selection-start="172" selection-end="172" vertical-scroll-proportion="-3.0">
-              <folding />
+            <state line="392" column="30" selection-start="14782" selection-end="14782" vertical-scroll-proportion="1.583524">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="themes.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/themes.xml">
+      <file leaf-file-name="gcm_title.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/gcm_title.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="58" selection-start="110" selection-end="110" vertical-scroll-proportion="-1.8">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -169,36 +183,7 @@
       <file leaf-file-name="navigate.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/menu/navigate.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="44" selection-start="151" selection-end="151" vertical-scroll-proportion="-2.4">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="colors.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="43" selection-start="144" selection-end="190" vertical-scroll-proportion="-1.8">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/online/GCM/activities/HomeActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="56" selection-start="4301" selection-end="4301" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="14" column="1" selection-start="485" selection-end="485" vertical-scroll-proportion="-8.4">
               <folding />
             </state>
           </provider>
@@ -206,34 +191,55 @@
       </file>
       <file leaf-file-name="drawer_list_item.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/drawer_list_item.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="73" selection-start="1140" selection-end="1140" vertical-scroll-proportion="-6.16">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="2.2">
               <folding />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gcm_news.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/gcm_news.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="80" selection-start="744" selection-end="744" vertical-scroll-proportion="-0.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webview_default.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/webview_default.xml">
           <provider editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="5" selection-start="659" selection-end="659" vertical-scroll-proportion="-4.2">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="40" selection-start="423" selection-end="423" vertical-scroll-proportion="-5.4">
+            <state line="18" column="36" selection-start="816" selection-end="816" vertical-scroll-proportion="-10.8">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="drawermenu.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/drawermenu.xml">
-          <provider editor-type-id="text-editor">
-            <state line="44" column="55" selection-start="2018" selection-end="2018" vertical-scroll-proportion="-10.6">
+      <file leaf-file-name="home.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/home.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="50" selection-start="575" selection-end="575" vertical-scroll-proportion="-2.6">
               <folding />
             </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -247,22 +253,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/menu/navigate.xml" />
-        <option value="$PROJECT_DIR$/src/com/online/GCM/activities/GcmOnlineActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/online/GCM/activities/AndroidDownloadHelper.java" />
-        <option value="$PROJECT_DIR$/src/com/online/GCM/activities/NavigationDrawer.java" />
-        <option value="$PROJECT_DIR$/res/layout/home.xml" />
-        <option value="$PROJECT_DIR$/assets/banner.html" />
-        <option value="$PROJECT_DIR$/res/values/themes.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/res/layout/drawer_list_item.xml" />
+        <option value="$PROJECT_DIR$/assets/jquery.js" />
+        <option value="$PROJECT_DIR$/assets/header_main.html" />
+        <option value="$PROJECT_DIR$/assets/gracechurchmentor.html" />
+        <option value="$PROJECT_DIR$/assets/header_calendar.html" />
+        <option value="$PROJECT_DIR$/assets/gcm_news.html" />
         <option value="$PROJECT_DIR$/res/layout/drawermenu.xml" />
-        <option value="$PROJECT_DIR$/res/color/transparent.xml" />
-        <option value="$PROJECT_DIR$/res/color/color.xml" />
-        <option value="$PROJECT_DIR$/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/src/com/online/GCM/activities/HomeActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/online/GCM/fragments/CalendarFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/online/GCM/fragments/SermonsFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/online/GCM/fragments/HomeFragment.java" />
+        <option value="$PROJECT_DIR$/res/layout/home.xml" />
+        <option value="$PROJECT_DIR$/src/com/online/GCM/fragments/ChoiceFragment.java" />
+        <option value="$PROJECT_DIR$/res/layout/webview_fragment.xml" />
+        <option value="$PROJECT_DIR$/res/layout/webview_events.xml" />
+        <option value="$PROJECT_DIR$/res/menu/navigate.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/assets/footer.html" />
+        <option value="$PROJECT_DIR$/src/com/online/GCM/activities/HomeActivity.java" />
       </list>
     </option>
   </component>
@@ -270,10 +276,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-10" />
-    <option name="width" value="1217" />
-    <option name="height" value="812" />
+    <option name="x" value="55" />
+    <option name="y" value="-9" />
+    <option name="width" value="1235" />
+    <option name="height" value="819" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -322,6 +328,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -354,101 +361,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GCM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fragments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GCM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GCM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GCM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="activities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GCM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GCM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GCM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GCM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GCM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GCM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GCM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GCM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -500,7 +413,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -514,23 +426,24 @@
     <property name="options.lastSelected" value="preferences.sourceCode.XML" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$USER_HOME$/android/extras/android/support/v4/android-support-v4.jar!/" />
-    <property name="AndroidLayoutSelectedEditor" value="android-designer" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/packages_apps_PerformanceControl-jb-mr1" />
+    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/libs" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
@@ -572,6 +485,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -600,19 +526,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -626,6 +539,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -647,13 +567,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -745,36 +658,36 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-10" width="1217" height="812" extended-state="6" />
+    <frame x="55" y="-9" width="1235" height="819" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17023097" sideWeight="0.77321154" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325723" sideWeight="0.46107784" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325723" sideWeight="0.46107784" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32853982" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24123183" sideWeight="0.77321154" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22678843" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.421728" sideWeight="0.77321154" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3409437" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25570777" sideWeight="0.53892213" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2435312" sideWeight="0.53892213" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32853982" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24971624" sideWeight="0.7710177" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.7458143" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.7716895" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24037638" sideWeight="0.7564688" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22678843" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17023097" sideWeight="0.7549467" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.421728" sideWeight="0.7549467" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39878234" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -844,126 +757,125 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="17" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/gracechurchmentor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="33" selection-start="3698" selection-end="3698" vertical-scroll-proportion="0.0">
+        <state line="55" column="0" selection-start="2967" selection-end="2967" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/commons_io_2_4.xml">
+    <entry file="file://$PROJECT_DIR$/assets/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/commons_io_2_41.xml">
+    <entry file="file://$PROJECT_DIR$/assets/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="159" column="7" selection-start="8118" selection-end="8118" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/android/sources/android-17/android/os/Looper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="58" selection-start="4648" selection-end="4648" vertical-scroll-proportion="0.8">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/online/GCM/activities/GcmOnlineActivity.java">
+    <entry file="file://$PROJECT_DIR$/assets/header_calendar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="199" column="11" selection-start="6509" selection-end="6509" vertical-scroll-proportion="0.0">
+        <state line="247" column="7" selection-start="13052" selection-end="13052" vertical-scroll-proportion="-13.708333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/upcoming_events.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="2057" selection-end="2057" vertical-scroll-proportion="0.23963134">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/gcm_news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="80" selection-start="744" selection-end="744" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/home.xml">
-      <provider editor-type-id="text-editor">
-        <state line="35" column="41" selection-start="1566" selection-end="1566" vertical-scroll-proportion="-13.44">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="50" selection-start="575" selection-end="575" vertical-scroll-proportion="-2.6">
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer">
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/webview_default.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="5" selection-start="659" selection-end="659" vertical-scroll-proportion="-4.2">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/drawer_list_item.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="2.2">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/action_search.png">
+      <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="110" selection-start="2041" selection-end="2041" vertical-scroll-proportion="0.52839506">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/res/layout/gcm_title.xml">
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="158" selection-start="616" selection-end="616" vertical-scroll-proportion="0.3146853">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/themes.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="58" selection-start="110" selection-end="110" vertical-scroll-proportion="-1.8">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/menu/navigate.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="44" selection-start="151" selection-end="151" vertical-scroll-proportion="-2.4">
+        <state line="14" column="1" selection-start="485" selection-end="485" vertical-scroll-proportion="-8.4">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="12" selection-start="172" selection-end="172" vertical-scroll-proportion="-3.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/drawer_list_item.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="73" selection-start="1140" selection-end="1140" vertical-scroll-proportion="-6.16">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="43" selection-start="144" selection-end="190" vertical-scroll-proportion="-1.8">
+        <state line="18" column="36" selection-start="816" selection-end="816" vertical-scroll-proportion="-10.8">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/online/GCM/activities/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="56" selection-start="4301" selection-end="4301" vertical-scroll-proportion="0.0">
+        <state line="392" column="30" selection-start="14782" selection-end="14782" vertical-scroll-proportion="1.583524">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="40" selection-start="423" selection-end="423" vertical-scroll-proportion="-5.4">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/drawermenu.xml">
-      <provider editor-type-id="text-editor">
-        <state line="44" column="55" selection-start="2018" selection-end="2018" vertical-scroll-proportion="-10.6">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-          <folding />
         </state>
       </provider>
     </entry>
