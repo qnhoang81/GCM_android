@@ -12,16 +12,22 @@
     <string name="GCMNews">GCM News</string>
     <string-array name="navigate_array">
         <item>@string/UpcomingEvents</item>
-        <item>@string/GCMNews</item>
-        <item>@string/gcm_online</item>
         <item>@string/Calendar</item>
         <item>@string/Sermons</item>
         <item>@string/Visitor</item>
+        <item>@string/login</item>
+    </string-array>
+    <string-array name="gcm_array">
+        <item>@string/Calendar</item>
+
     </string-array>
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
     <string name="action_websearch">Web search</string>
     <string name="app_not_available">This app is not available</string>
     <string name="action_exit">Exit</string>
+    <string name="continue_action"><a>Continue as guest</a></string>
+    <string name="login">Login to GCMOnline</string>
+
 
 </resources>

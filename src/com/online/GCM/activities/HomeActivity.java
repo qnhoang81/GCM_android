@@ -3,6 +3,7 @@ package com.online.GCM.activities;
 import android.app.*;
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.view.GravityCompat;
@@ -38,25 +39,7 @@ public class HomeActivity extends Activity {
     private ProgressBar mProgressBar;
 
 
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_ACTION_BAR);
-        getWindow().requestFeature(Window.FEATURE_PROGRESS);
-
-        setContentView(R.layout.home);
-
-        setLayout();
-
-        /***** Webview implementation *****/
-        if (savedInstanceState == null) {
-                // Load a page
-            //mWebViewhome.loadUrl("file:///android_asset/gracechurchmentor.html");
-        }
-
-
-        getActionBar().setDisplayHomeAsUpEnabled(true);
-        getActionBar().setHomeButtonEnabled(true);
-
+    public void CreateDrawer() {
         /***** Implemenation of Sliding Navigation Drawer *****/
 
         mNavigate = getResources().getStringArray(R.array.navigate_array);
@@ -91,6 +74,28 @@ public class HomeActivity extends Activity {
             }
         };
         mDrawerLayout.setDrawerListener(mDrawerToggle);
+    }
+
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_ACTION_BAR);
+        getWindow().requestFeature(Window.FEATURE_PROGRESS);
+
+        setContentView(R.layout.visitor_home);
+
+        setLayout();
+
+        /***** Webview implementation *****/
+        if (savedInstanceState == null) {
+                // Load a page
+            //mWebViewhome.loadUrl("file:///android_asset/gracechurchmentor.html");
+        }
+
+
+        getActionBar().setDisplayHomeAsUpEnabled(true);
+        getActionBar().setHomeButtonEnabled(true);
+
+        CreateDrawer();
 
     }
 
@@ -118,7 +123,7 @@ public class HomeActivity extends Activity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
-        // The action bar home/up action should open or close the drawer.
+        // The action bar visitor_home/up action should open or close the drawer.
         // ActionBarDrawerToggle will take care of this.
         if (mDrawerToggle.onOptionsItemSelected(item)) {
             return true;
@@ -158,6 +163,11 @@ public class HomeActivity extends Activity {
             }
             // If there are no fragments on stack perform the original back button event
         }
+
+        if (keyCode == KeyEvent.KEYCODE_MENU) {
+            CreateDrawer();
+        }
+
 
         return super.onKeyDown(keyCode, event);
 
@@ -253,8 +263,21 @@ public class HomeActivity extends Activity {
 
             });
 
-            mWebViewhome.loadUrl("https://gracechurchmentor.ccbchurch.com/mobile_login.php");
-            mWebViewhome.setWebViewClient(new WebViewClient());
+            mWebViewhome.loadUrl("file:///android_asset/gracechurchmentor.html");
+            mWebViewhome.setWebViewClient(new WebViewClient() {
+                public boolean shouldOverrideUrlLoading(WebView view, String url) {
+                    if (url.startsWith("tel:")) {
+                        Intent intent = new Intent(Intent.ACTION_DIAL,
+                                Uri.parse(url));
+                        startActivity(intent);
+                    }else if(url.startsWith("http:") || url.startsWith("https:")) {
+                        view.loadUrl(url);
+                    }
+                    return true;
+                }
+
+
+            });
             setTitle("Grace Church of Mentor");
             return view;
         }
@@ -337,12 +360,28 @@ public class HomeActivity extends Activity {
             });
 
 
-            mWebViewhome.setWebViewClient(new WebViewClient());
+            mWebViewhome.setWebViewClient(new WebViewClient() {
+                public boolean shouldOverrideUrlLoading(WebView view, String url) {
+                    if (url.startsWith("tel:")) {
+                        Intent intent = new Intent(Intent.ACTION_DIAL,
+                                Uri.parse(url));
+                        startActivity(intent);
+                    } else if(url.startsWith("http:") || url.startsWith("https:")) {
+                        view.loadUrl(url);
+                    }
+                    return true;
+                }
+
+
+            });
 
             int i = getArguments().getInt(ARG_ARRAY_NUMBER);
             String navigate = getResources().getStringArray(R.array.navigate_array)[i];
 
             switch (i) {
+                //case 0:
+                //    mWebViewhome.loadUrl("https://gracechurchmentor.ccbchurch.com/mobile_login.php");
+                //    break;
                 case 0:
                     try {
 
@@ -355,25 +394,9 @@ public class HomeActivity extends Activity {
                     }
 
                     break;
+
+
                 case 1:
-
-                    try {
-
-                        InputStream st = getAssets().open("gcm_news.html");
-                        String header = IOUtils.toString(st);
-
-                        StringBuilder builder = new StringBuilder("");
-                        builder.append(header + gcmnews() + "</div></body></html>");
-
-                        mWebViewhome.loadDataWithBaseURL("file:///android_asset/gcm_news.html", builder.toString(), "text/html", "charset=UTF-8", null);
-                    } catch (IOException e) {
-                        e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-                    }
-                    break;
-                case 2:
-                    mWebViewhome.loadUrl("https://gracechurchmentor.ccbchurch.com/mobile_login.php");
-                    break;
-                case 3:
                     try {
                         InputStream st = getAssets().open("header_calendar.html");
                         String header = IOUtils.toString(st);
@@ -383,12 +406,23 @@ public class HomeActivity extends Activity {
                         e.printStackTrace();
                     }
                     break;
-                case 4:
-                    mWebViewhome.loadUrl("http://www.gracechurchmentor.org/sermons");
+                case 2:
+                    try {
+                    InputStream st = getAssets().open("sermons.html");
+                    String header = IOUtils.toString(st);
+
+                    mWebViewhome.loadDataWithBaseURL("file:///android_asset/sermons.html", header, "text/html", "charset=UTF-8", null);
+                    } catch (IOException e) {
+                        e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                    }
+
                     break;
-                case 5:
+                case 3:
                     mWebViewhome.loadUrl("file:///android_asset/gracechurchmentor.html");
                     break;
+                case 4:
+                    Intent intent = new Intent(getActivity().getBaseContext(), LoginGCM.class);
+                    startActivity(intent);
                 default:
                     finish();
             }

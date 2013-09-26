@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff" >
+
+
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-5dip"
+        android:layout_marginRight="-5dip"
+        android:layout_marginTop="-10dip"
+        android:background="@drawable/bg_curve"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login using your Grace Church of Mentor username and password!"
+            android:id="@+id/textView"
+            android:textIsSelectable="false"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:layout_alignLeft="@+id/main_logo"
+            android:layout_below="@+id/main_logo" android:typeface="normal"/>
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/username"
+            android:layout_alignLeft="@+id/textView" android:layout_below="@+id/textView"
+            android:layout_marginBottom="10dp" android:hint="Email" android:inputType="textEmailAddress"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:layout_alignLeft="@+id/main_logo" android:layout_below="@+id/username" android:hint="Password"
+            android:inputType="textPassword"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guest"
+            android:layout_alignParentEnd="false"
+            android:textSize="19dp"
+            android:textStyle="italic"
+            android:textColorLink="#1e34ff" android:textIsSelectable="false" android:textColor="#1e34ff"
+            android:typeface="monospace" android:text="@string/continue_action" android:onClick="onClick"
+            android:clickable="true" android:autoLink="all"
+            android:layout_alignLeft="@+id/main_logo" android:layout_below="@+id/login"
+            android:layout_marginTop="10dp"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:id="@+id/login" android:layout_alignLeft="@+id/main_logo" android:layout_below="@+id/password"
+            android:textAlignment="center" android:padding="15dp"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:id="@+id/clear" android:layout_toRightOf="@+id/login" android:layout_above="@+id/guest"
+            android:layout_marginLeft="5dp" android:textAlignment="center" android:padding="15dp"/>
+
+</RelativeLayout>
